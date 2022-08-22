@@ -14,21 +14,47 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../first/estilo.css">
     <script src="../arquivos/bootstrap.js"></script>
-    <script src="../first/estilo.css"></script>
+<script src="../first/app.js"></script>
     <title>Curso Caravan</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="index.html" class="navbar-brand">
-            <img src="../img/caravan.svg" alt="Caravan">
+    <nav class="navbar navbar-expand-md py-3 navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">
+            <img src="../img/caravan.svg" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </nav>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="local.html">California</a>
+                            <a class="dropdown-item" href="local.html">Paris</a>
+                            <a class="dropdown-item" href="local.html">Dublin</a>
+                        </div>
+                    </a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="planos.html">Planos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-primary ml-md-2" href="planos.html">Inscreva-se</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </nav>
 
 
 
